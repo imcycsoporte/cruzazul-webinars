@@ -1,0 +1,609 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:wght@300;400;800&display=swap');
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #0a864c;
+    border-color: #0b1b34;
+}
+
+h2.rojo {
+    color: #ed1d25;
+}
+
+h1 {
+    color: #fff;
+}
+
+.container-fluid.home {
+    position: fixed;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(20, 49, 93);
+    background: linear-gradient(166deg, rgba(20, 49, 93, 1) 35%, rgba(10, 26, 50, 1) 100%);
+}
+
+.login {
+    max-width: 400px;
+    width: 400px;
+    background: #fff;
+    box-shadow: 0 0 10px #000;
+}
+
+.login .logo img {
+    width: 200px;
+    padding: 10px;
+    padding-bottom: 0;
+}
+
+.login .logo {
+    text-align: center;
+}
+
+.forma {
+    padding: 20px;
+    padding-top: 0;
+}
+
+.entrada22 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../images/bkg_entrada.jpeg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    flex-direction: column;
+}
+
+
+.entrada22 .logo22 {
+    position: fixed;
+    top: 10px;
+    right: 50px;
+    text-align: center;
+}
+
+.entrada22 .tituloentrada {
+    position: fixed;
+    left: 50px;
+    top: 10px;
+    text-align: center;
+}
+
+.entrada22 .tituloentrada h3 {
+    color: #ee4a55;
+    font-weight: 100;
+    font-size: 2rem;
+}
+
+.entrada22 .tituloentrada h1 {
+    color: #293f8b;
+    font-size: 4rem;
+    line-height: 5rem;
+    letter-spacing: 1rem;
+}
+
+.entrada22 .tituloentrada h1 span.rojo {
+    color: #ee4a55;
+}
+
+#loader-wrapper {
+    background: rgb(20, 49, 93);
+    background: linear-gradient(166deg, rgba(20, 49, 93, 1) 35%, rgba(10, 26, 50, 1) 100%);
+}
+
+.entrada22 .logo22 img {
+    float: initial;
+}
+
+.entrada22 .logo22 h1 {
+    margin-top: 0;
+}
+
+.entrada22 .btn-entrada-22 {
+    position: fixed;
+    left: auto;
+    bottom: 0;
+    text-align: center;
+    right: 100px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.entrada22 .btn-entrada-22 h3 {
+    color: #293f8b;
+    margin-bottom: 20px;
+    font-weight: 100;
+    letter-spacing: 0.7rem;
+}
+
+.entrada22 .btn-entrada-22 button.btn.btn-entrada {
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 1.5rem;
+    background: #000;
+    color: #fff;
+    letter-spacing: 0.5rem;
+    box-shadow: 0px 20px 20px 0px #000;
+}
+
+.cube-folding .leaf1 {
+    background-color: #1518f7;
+}
+
+.cube-folding .leaf2 {
+    background-color: #2d2fe3;
+}
+
+.cube-folding .leaf3 {
+    background-color: #4142d8;
+}
+
+.cube-folding .leaf4 {
+    background-color: #6e6fd8;
+}
+
+.col-md-9.contenidos {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    overflow: auto;
+    box-shadow: inset 0 0 10px #000;
+}
+
+.col-md-9.contenidos.examen {
+    display: flex;
+    text-align: left;
+    height: auto;
+    padding-bottom: 50px;
+}
+
+.col-md-9.contenidos .capucha {
+    background: #333;
+    border-radius: 50%;
+    height: 120px;
+    text-align: center;
+    width: 120px;
+    margin: 0 auto;
+    box-shadow: 5px 1px 10px #333;
+    border: 2px solid #fff;
+    transition: all 1s;
+}
+
+.col-md-9.contenidos .capucha:hover {
+    border: 3px solid #f0495a;
+}
+
+.col-md-3.barra {
+    height: 95vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.col-md-3.barra.menu {
+    justify-content: start;
+}
+
+body.boxed .page-wrapper {
+    background: url(../images/bkg_entrada.jpeg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body.boxed .page-wrapper .tituloentrada {
+    position: fixed;
+    left: 50px;
+    top: 10px;
+    text-align: center;
+}
+
+body.boxed .page-wrapper .tituloentrada h3 {
+    color: #21093a;
+    font-weight: 100;
+    font-size: 2rem;
+}
+
+body.boxed .page-wrapper .tituloentrada h1 {
+    color: #293f8b;
+    font-size: 4rem;
+    line-height: 5rem;
+    letter-spacing: 1rem;
+}
+
+body.boxed .page-wrapper .tituloentrada h1 span.rojo {
+    color: #177053;
+}
+
+.container.form-card {
+    position: fixed;
+    bottom: 20%;
+    background: transparent;
+    margin-bottom: -20px;
+}
+
+.form-card.gcc {
+    background: none;
+    box-shadow: none;
+
+    height: auto;
+    padding-bottom: 10px;
+    margin: 0 auto;
+}
+
+.form-card.gcc .form-control.input-lg.veintedos {
+    margin-bottom: 10px;
+    background: rgb(0, 0, 0) !important;
+    background-color: rgb(0, 0, 0) !important;
+    border: 1px solid #000;
+    padding: 5px;
+    color: #fff;
+}
+
+.form-card.gcc .login {
+    max-width: none;
+}
+
+body.boxed .page-wrapper.contenidos {
+    background: url(../images/bkg_contenidos.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/* Tarjeta de contenido: imagen de fondo en lugar del negro semitransparente.
+   Solo las que traen el negro inline (rgba(0,0,0,...)); las de otro color no se tocan.
+   !important porque el fondo esta escrito en un style="" dentro de la pagina PHP. */
+body.boxed .page-wrapper.contenidos .col-md-9.contenidos[style*="rgba(0,0,0"],
+body.boxed .page-wrapper.contenidos .col-md-9.contenidos[style*="rgba(0, 0, 0"] {
+    background: url(../images/bkg_contenidos.jpg) no-repeat center center / cover !important;
+}
+
+/* Menu lateral: azul */
+body.boxed .page-wrapper.contenidos .col-md-3.barra.menu {
+    background: #051a40;
+}
+
+/* Header: azul claro. El tema externo pone .navbar blanco/transparente
+   segun el scroll, por eso se cubren header y navbar. */
+body .page-header,
+body .page-header .navbar,
+body .page-header.sticky.is-sticky .navbar {
+    background: #7cc4f0 !important;
+}
+
+.contenidos .menu-bajo {
+    margin-bottom: 30px;
+}
+
+.contenidos .menu-principal h3,
+.contenidos .menu-bajo h3 {
+    text-align: left;
+    padding: 10px 20px;
+    color: #fff;
+}
+
+.capucha-txt h4 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    margin-top: 15px;
+    line-height: 1.5rem;
+    color: #fff;
+    font-weight: 600;
+}
+
+.menu_webinars ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+.menu_webinars ul li {
+    margin-bottom: 8px;
+}
+
+.menu_webinars ul li a {
+    padding: 12px 15px;
+    background: #f8f9fa;
+    color: #333333;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    border-left: 5px solid transparent;
+}
+
+.menu_webinars ul li a span.material-symbols-outlined {
+    margin-right: 15px;
+    background: #0e0e0e0e;
+    color: #104a9f;
+    font-weight: bold;
+    font-size: 16px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    font-size: 10px;
+    padding: 0px;
+
+}
+
+.menu_webinars ul li a.exist {
+    background: #83aad9;
+    border-left: 5px solid #81afdc;
+
+
+}
+
+.menu_webinars ul li a.exist span.material-symbols-outlined {
+    background: #1714d5;
+    color: white;
+
+}
+
+.menu_webinars ul li a span.material-symbols-outlined {
+    margin-right: 10px;
+    background: #a71218;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.menu_webinars ul li a.active span.material-symbols-outlined {
+    background: #ffffffff;
+    color: #104a9f
+}
+
+.menu_webinars ul li a:hover {
+    background: #9cb7d2;
+    transform: translateX(6px);
+    color: #e6e2ea
+}
+
+.header-link.dropdown-link.header-account .lnr.lnr-user {
+    background: #c21a3e;
+}
+
+
+.tit_webinar h2 {
+    margin: 0;
+    padding: 10px;
+    background: #122449;
+    color: #e5d5d5;
+    line-height: 2.9rem;
+}
+
+.panel-group.faq .panel-heading .panel-title,
+.panel-group.faq .panel-heading+.panel-collapse>.panel-body {
+    text-align: left;
+
+}
+
+.panel-title p.ptop {
+    background: #104a9f;
+    color: #fff;
+    padding: 5px 20px;
+    width: fit-content;
+}
+
+.panel-group.faq .panel-heading {
+    padding-top: 0;
+}
+
+h4.sectoter {
+    text-align: left;
+    margin: 10px 0 30px 20px;
+    font-size: 2.2rem;
+    color: #ed1d25;
+    font-weight: 900;
+    letter-spacing: 0.2rem;
+}
+
+h4.sectoter span {
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.row.elresultxxx {
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 10px;
+    flex-direction: column;
+    text-align: left;
+}
+
+a.retorno {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    height: 100%;
+}
+
+a.regresar {
+    width: 100%;
+    background: #333333;
+    display: block;
+    margin-top: 5px;
+    text-align: left;
+    margin-bottom: 2px;
+    transition: all 1s;
+}
+
+a.regresar:hover {
+    background: #104a9f;
+}
+
+.material-symbols-outlined.regresar {
+    font-size: 4rem;
+    padding: 5px;
+    background: #104a9f;
+    color: #fff;
+}
+
+ul.list-group.acervo,
+ul.list-group-acervo.acervo {
+    list-style: none;
+    text-align: left;
+    margin: 0 20px;
+    padding: 0;
+    padding-bottom: 50px;
+}
+
+ul.list-group-acervo.acervo {
+    padding-bottom: 0;
+}
+
+ul.list-group.acervo li,
+ul.list-group-acervo.acervo li {
+    padding: 5px;
+    border: 1px solid #d7d7d7;
+    margin-bottom: 2px;
+    background: rgba(255, 255, 255, 0.8);
+}
+
+ul.list-group.acervo li h4,
+ul.list-group-acervo.acervo li h4 {
+    margin: 0;
+    padding: 2px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+}
+
+ul.list-group.acervo li h4 a,
+ul.list-group-acervo.acervo li h4 a {
+    display: flex;
+    align-items: center;
+    color: #333;
+}
+
+ul.list-group.acervo li p,
+ul.list-group-acervo.acervo li p {
+    margin: 0;
+    padding: 2px;
+    padding-top: 0;
+    display: flex;
+    align-items: center;
+}
+
+ul.list-group.acervo li p small,
+ul.list-group-acervo.acervo li p small {
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+a.tarjeta_webinar {
+    width: 100%;
+    display: block;
+    height: 90px;
+    background: rgb(18, 74, 159);
+    background: linear-gradient(180deg, rgba(18, 74, 159, 1) 0%, rgba(12, 43, 91, 1) 100%);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px;
+    margin: 0;
+    transition: all 1s;
+    margin: 0 0 25px 0;
+    font-family: "Montserrat", sans-serif;
+    box-shadow: 0 5px 10px #000;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+a.tarjeta_webinar:hover {
+    background: #104a9f;
+}
+
+.btn.btn-lg.login.veintedos {
+    display: block;
+    margin: 0 auto;
+}
+
+p.normastyle small {
+    font-size: 60%;
+    font-family: "Montserrat", sans-serif;
+    color: #ed1d25;
+    font-weight: bold;
+}
+
+#delivery1 .panel-body label {
+    font-family: "Oswald", sans-serif !important;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.panel-group.faq .panel-collapse {
+    background: transparent !important;
+}
+
+.menu-bajo-display {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.menu-bajo-display .capucha {
+    width: 90px !important;
+    height: 90px !important;
+    box-shadow: none !important;
+}
+
+.menu-bajo-display .capucha-txt h4 {
+    font-size: 1rem !important;
+}
+
+.menu-bajo-display-unit {
+    overflow: hidden;
+    width: 90px;
+}
+
+
+/* Alturas mínimas en vez de fijas — 2026-10-10
+   Con height fijo, lo que no cabía (tarjetas de módulos, menús largos) quedaba debajo del footer;
+   y la barra apilada (< 992 px) dejaba un hueco enorme sobre el contenido. */
+.col-md-9.contenidos {
+    height: auto;
+    min-height: 100vh;
+}
+
+.col-md-3.barra {
+    height: auto;
+    min-height: 95vh;
+}
+
+@media (max-width: 991px) {
+    .col-md-3.barra {
+        min-height: 0;
+    }
+}
